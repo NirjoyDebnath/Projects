@@ -1,0 +1,44 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.cart-page
+{
+   margin:80px auto; 
+}
+table{
+    width:auto;
+    border-collapse:collapse;
+}
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:18%;
+  }
+
+ th{
+    text-align: center;
+    padding: 5px;
+    color:white;
+    background: red;
+    font-weight: normal ;
+    font-size: 20px;
+}
+td{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 20px;
+}
+td img{
+    margin-right: 10px;
+    width: 100px;
+   
+}
+
+
+
+
+
