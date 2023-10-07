@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Unit">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#553a18"
+        android:padding="10dp"
+        android:text="Length Convertor"
+        android:textColor="#a09a79"
+        android:textSize="20dp"
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/inputunit"
+            android:layout_width="279dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp"
+            android:inputType="numberSigned"
+            android:minWidth="120dp"
+
+            android:minHeight="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/inputspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:minWidth="100dp"
+            android:minHeight="48dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <Spinner
+            android:id="@+id/outputspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:minWidth="100dp"
+            android:minHeight="48dp"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/mback1"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/unitanswer"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="1dp"
+
+            android:background="#e7e7e7"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/outputunit"
+            android:layout_width="279dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:inputType="numberSigned"
+
+            android:minWidth="120dp"
+            android:minHeight="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="161dp"
+        android:layout_marginHorizontal="320dp"
+        android:layout_marginVertical="130dp"
+        android:background="#ECE8E8"
+        android:orientation="vertical"
+
+        >
+
+        <ImageButton
+            android:id="@+id/cb"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/calback"
+            android:scaleType="centerCrop"
+            android:src="@drawable/calback" />
+
+        <ImageButton
+            android:id="@+id/mb"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mback4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mback4" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

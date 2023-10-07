@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Advanced Calculator</string>
+    <string-array name="temps">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="units">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Micrometer</item>
+        <item>Nanometer</item>
+    </string-array>
+    <string-array name="curs">
+        <item>Taka</item>
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>CAD</item>
+        <item>Bitcoin</item>
+        <item>Rupee</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Decimal</item>
+        <item>HexaDecimal</item>
+    </string-array>
+    <string-array name="times">
+        <item>Month</item>
+        <item>Week</item>
+        <item>Day</item>
+        <item>Hour</item>
+        <item>Minute</item>
+        <item>Second</item>
+        <item>Millisecond</item>
+    </string-array>
+    <string-array name="masses">
+        <item>Tonne</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Microgram</item>
+        <item>Quintal</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+        <item>Carat</item>
+    </string-array>
+</resources>

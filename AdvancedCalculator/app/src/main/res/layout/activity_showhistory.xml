@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Showhistory">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#553a18"
+        android:padding="10dp"
+        android:text="History"
+        android:textColor="#C6C2BC"
+        android:textSize="20dp"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="66dp"
+        android:id="@+id/showh"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="66dp"
+        android:id="@+id/showh1"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="66dp"
+        android:id="@+id/showh2"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="66dp"
+        android:id="@+id/showh3"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="66dp"
+        android:id="@+id/showh4"
+        android:textSize="20sp"
+
+        />
+
+
+
+</LinearLayout>
+
